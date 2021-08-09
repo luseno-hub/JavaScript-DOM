@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+#rectangleWrapper {
+  padding: 50px;
+  padding-bottom: 0;
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px 150px;
+  grid-template-rows: 100px 100px;
+  grid-column-gap: 5px;
+  grid-row-gap: 50px;
+  margin-bottom: 1em;
+}
+
+.fav-colors {
+  width: 100%;
+  height: 90%;
+}
+
+p {
+  font-size: 14px;
+}
+
+#color1 {
+  background-color: #ff5733;
+}
+
+#color2 {
+  background-color: #ff8d33;
+}
+
+#color3 {
+  background-color: #ffca33;
+}
+
+#color4 {
+  background-color: #f6ff33;
+}
+
+#color5 {
+  background-color: #b8ff33;
+}
+
+#color6 {
+  background-color: #68ff33;
+}
+
+#color7 {
+  background-color: #33ff9f;
+}
+
+#color8 {
+  background-color: #33f6ff;
+}
+
+#color9 {
+  background-color: #3c33ff;
+}
+
+#color10 {
+  background-color: #b233ff;
+}
